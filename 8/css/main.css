@@ -1,0 +1,212 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+body {
+  width: 1200px;
+  margin: 0px auto;
+}
+header {
+  height: 100px;
+  display: flex;
+}
+.logo {
+  align-content: center;
+}
+.logo > img {
+  height: 40px;
+  width: 200px;
+}
+header > nav {
+  align-content: center;
+  width: 1000px;
+  text-align: right;
+  padding-right: 30px;
+  justify-content: flex-end !important;
+}
+.mainMenu {
+  display: flex;
+  width: 100%;
+  float: center;
+  justify-content: flex-end;
+}
+
+.subMenu > li:hover {
+  font-weight: bold;
+}
+.mainMenu > li > a {
+  color: black;
+}
+.mainMenu > li {
+  width: 200px;
+  text-align: center;
+}
+.subMenu {
+  background-color: rgb(226, 236, 167);
+  float: center;
+  z-index: 100;
+  text-align: center;
+  position: absolute;
+}
+.subMenu > li {
+  padding-left: 10px;
+  width: 100px;
+  padding-right: 40px;
+  text-align: center;
+}
+.subMenu > li > a {
+  text-decoration: none;
+  color: black;
+}
+.slideBox {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.slideBox > div > span {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+}
+.textef {
+  color: yellow;
+  font-weight: bold;
+  font-size: 2em;
+}
+.slideBox > div {
+  align-content: center;
+  color: white;
+  font-size: 1.5em;
+  width: 1200px;
+  height: 300px;
+  position: absolute;
+}
+#slide1 {
+  background-image: url(../Slide/건설현장이미지1.jpg);
+}
+#slide2 {
+  background-image: url(../Slide/건설현장이미지2.jpg);
+}
+#slide3 {
+  background-image: url(../Slide/건설현장이미지3.jpg);
+}
+.contents {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+#layerBtn {
+  text-decoration: none;
+  color: black;
+}
+.notice {
+  width: 35%;
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  font-size: 0.8em;
+  font-weight: normal !important;
+}
+td,
+th {
+  border-bottom: 1px solid lightgray;
+}
+.gallery {
+  justify-content: space-between;
+  font-weight: bold;
+  width: 35%;
+  height: 100%;
+}
+
+.gallery img {
+  width: 30%;
+}
+.direct {
+  background-image: url(../Contents/바로가기/construction1.jpg);
+  width: 30%;
+  height: 200px;
+  text-align: center;
+  align-content: center;
+}
+.direct > div {
+  left: 20%;
+  position: relative;
+  text-align: center;
+  width: 60%;
+  height: 2em;
+  border: 1px solid white;
+  color: white;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.direct > div > a {
+  align-content: center;
+  color: white;
+}
+footer {
+  height: 100px;
+  font-size: 0.8em;
+  text-decoration: none;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.footerMenuCopyright > nav > ul > li > a {
+  color: white;
+}
+.footerMenuCopyright > nav > ul {
+  display: flex;
+  float: left;
+}
+.footerMenuCopyright > nav > ul > li {
+  margin-right: 40px;
+}
+.footerMenuCopyright {
+  display: inline-block;
+  width: 80%;
+}
+#copylight {
+  line-height: 1em;
+  display: inline-block;
+  width: 100%;
+  margin-left: 40px;
+}
+
+#popUp {
+  position: absolute;
+  align-content: center;
+  width: 600px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#popUp > p {
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+
+#popUp > h3 {
+  margin-left: 10px;
+}
+.layer {
+  left: 30%;
+  top: 25%;
+  position: absolute !important;
+}
+#close {
+  border-radius: 20%;
+  border: 1px solid white;
+  align-content: center;
+  text-align: center;
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 12px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#close > a {
+  color: white;
+}
