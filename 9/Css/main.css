@@ -1,0 +1,199 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  align-content: center;
+  justify-content: space-between;
+  display: flex;
+  height: 100px;
+}
+.mainMenu > li > a:hover {
+  font-weight: bold;
+}
+.subMenu > li:hover {
+  font-weight: bold;
+}
+.logo {
+  width: 30%;
+  align-content: center;
+}
+.logo > img {
+  width: 200px;
+  height: 40px;
+}
+
+header > nav {
+  width: 70%;
+}
+.mainMenu {
+  margin-top: 30px;
+  display: flex;
+}
+.mainMenu > li {
+  width: 200px;
+}
+#highlightBox {
+  z-index: 10;
+  margin-top: 50px;
+  width: 1200px;
+  height: 90px;
+  position: absolute;
+  background-color: rgba(255, 118, 117, 0.2);
+}
+.subMenu {
+  position: absolute;
+  z-index: 100;
+  margin-left: -40px;
+}
+#layerBtn {
+  text-decoration: none;
+  color: black;
+}
+#layerTxt {
+  position: absolute;
+  align-content: center;
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+#layerTxt > p {
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+
+#layerTxt > h3 {
+  margin-left: 10px;
+}
+.layer {
+  left: 30%;
+  top: 25%;
+  position: absolute !important;
+}
+#close {
+  border-radius: 20%;
+  border: 1px solid white;
+  align-content: center;
+  text-align: center;
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 12px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#close > a {
+  color: white;
+}
+.slideBox {
+  overflow: hidden;
+  position: sticky;
+  width: 1200px;
+  height: 300px;
+}
+.slideBox > div {
+  margin: 0 auto;
+  position: absolute;
+  width: 1200px;
+  height: 300px;
+  align-content: end;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+.textEft {
+  font-size: 1.7em;
+  color: yellow;
+  font-weight: bold;
+}
+.slideBox > div > div {
+  align-content: center;
+  line-height: 0.5em;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#slide1 {
+  z-index: 3;
+  background-image: url(../Slide/등교길.jpg);
+}
+#slide2 {
+  z-index: 2;
+  background-image: url(../Slide/학교전경.jpg);
+}
+#slide3 {
+  z-index: 1;
+  background-image: url(../Slide/학교전경2.jpg);
+}
+.gallery > img {
+  width: 30%;
+}
+.content {
+  height: 200px;
+  display: flex;
+}
+.notice {
+  width: 35%;
+}
+
+.notice > p {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border-bottom: 1px solid lightgray;
+}
+td {
+  width: 80%;
+  font-size: 0.8em;
+}
+.gallery {
+  font-weight: bold;
+
+  width: 35%;
+}
+.direct {
+  font-weight: bold;
+
+  align-content: center;
+  background-image: url(../Contents/배너/intelligence.png);
+  background-size: cover;
+  width: 30%;
+}
+footer {
+  align-content: center;
+  font-size: 0.8em;
+  background-color: black;
+  display: flex;
+  height: 100px;
+  color: white;
+}
+.footerMenu {
+  margin-top: 20px;
+  display: flex;
+}
+.footerMenu > li {
+  margin-right: 20px;
+}
+.copy {
+  width: 900px;
+  margin-left: 43px;
+  line-height: 0.3em;
+}
+.familySite {
+  float: right;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
